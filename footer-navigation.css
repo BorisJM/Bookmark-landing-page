@@ -1,0 +1,56 @@
+.footer-section {
+  background-color: hsl(229, 31%, 21%);
+  padding: 2rem 0;
+}
+
+.footer-navigation {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+}
+
+.logo-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.logo-footer {
+  fill: #fff;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(58%) sepia(72%) saturate(2707%)
+    hue-rotate(323deg) brightness(97%) contrast(115%);
+}
+
+.author {
+  background-color: hsl(229, 31%, 21%);
+}
+
+.attribution {
+  color: #fff;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #fff;
+}
